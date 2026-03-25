@@ -22,7 +22,7 @@ pipeline {
             steps {
                 sh 'python3 --version'
                 // Note: This will fail if 'python.py' is missing from your repo
-                sh 'python3 python.py'
+                sh 'python3 app.py'
             }
         }
     }
